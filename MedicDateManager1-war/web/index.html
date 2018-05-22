@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Medic Date Manager</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <ul>
+                <li><a href="requestDate.jsp">Pedir citas</a></li>
+                <li><a href="printDates.jsp">Citas</a></li>
+                <li><a href="printMedicProducts.jsp">Medicinas</a></li>
+                <li><a href="cart.jsp">Carrito</a></li>
+            </ul>
+        </div>
+        <h1>Medic Date Manager</h1>
+
+        <form action="FrontServlet">
+            Para pedir cita pulse aquí: <input type="hidden" name="command" value="LoginCommand">
+            <input type="submit">
+        </form>
+    </body>
+</html>
