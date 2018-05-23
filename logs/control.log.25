@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-05-22T19:35:40</date>
+  <millis>1527014140067</millis>
+  <sequence>8522</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>324</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-22T19:35:50</date>
+  <millis>1527014150001</millis>
+  <sequence>8524</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>313</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-22T19:35:55</date>
+  <millis>1527014155000</millis>
+  <sequence>8526</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>317</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-22T19:36:00</date>
+  <millis>1527014160000</millis>
+  <sequence>8528</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>320</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-22T19:36:05</date>
+  <millis>1527014165000</millis>
+  <sequence>8530</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>319</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-22T19:36:10</date>
+  <millis>1527014170000</millis>
+  <sequence>8532</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>314</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-22T19:36:15</date>
+  <millis>1527014175000</millis>
+  <sequence>8534</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>316</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-22T19:36:20</date>
+  <millis>1527014180000</millis>
+  <sequence>8536</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>327</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-22T19:36:25</date>
+  <millis>1527014185000</millis>
+  <sequence>8538</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>322</thread>
+  <message>Doing nothing</message>
+</record>

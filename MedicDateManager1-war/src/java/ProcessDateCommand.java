@@ -1,4 +1,5 @@
 
+import Singleton.Log;
 import Stateful.User;
 import Stateless.DateContainer;
 import Stateless.Medic;

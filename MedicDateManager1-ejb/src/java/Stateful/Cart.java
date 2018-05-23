@@ -16,14 +16,16 @@ import javax.ejb.Stateful;
 @Stateful
 @LocalBean
 public class Cart {
-    private HashMap<MedicProduct, Integer> cart;
+    private HashMap<MedicProduct, Integer> cart = new HashMap<MedicProduct, Integer>();
+    
+    public Cart(){}
     
     public void addProductToCart(MedicProduct prod, int price){
         this.cart.put(prod, price);
     }
 
     public HashMap<MedicProduct, Integer> getCart() {
-        return cart;
+        return this.cart;
     }
     
 }
