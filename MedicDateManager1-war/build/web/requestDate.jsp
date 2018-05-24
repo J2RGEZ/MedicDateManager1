@@ -4,6 +4,7 @@
     Author     : forjaser
 --%>
 
+<%@page import="Singleton.Log"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="Stateful.MedicProduct"%>
 <%@page import="Stateless.Medic"%>
@@ -20,6 +21,7 @@
     </head>
     <body>
         <%@include file="Navbar.jspf" %>
+        
         <%
             MedicProduct product1 = new MedicProduct("Termalgin", 6, "AS corp");
             MedicProduct product2 = new MedicProduct("Propalgina", 15, "AS corp");

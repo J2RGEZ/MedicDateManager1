@@ -4,6 +4,7 @@
     Author     : forjaser
 --%>
 
+<%@page import="Singleton.Log"%>
 <%@page import="Stateless.Medic"%>
 <%@page import="Stateful.User"%>
 <%@page import="Stateless.MedicDate"%>
@@ -17,6 +18,7 @@
         <title>Mis citas</title>
     </head>
     <body>
+        <% Log.saveJSP("Pidiendo fecha");%>
         <%@include file="Navbar.jspf" %>
         <% if (session.getAttribute("medicDate") == null){ %>
         <h1>Parece que no has pedido ninguna cita</h1>

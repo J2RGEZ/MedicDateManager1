@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-import Singleton.Log;
+import Singleton.Stadistics;
 import Stateful.Cart;
 import Stateful.MedicProduct;
 import java.io.IOException;
@@ -23,6 +23,7 @@ import javax.servlet.ServletException;
 public class CartCommand extends FrontCommand {
     
     Cart cart = takeCartBean();
+    Stadistics stats = takeStadisticsBean();
     
     @Override
     public void process() throws ServletException, IOException {
@@ -33,6 +34,7 @@ public class CartCommand extends FrontCommand {
             for(int i = 0; i < productos.size();i++){
                 if (id == i){
                     cartTemp.addProductToCart(productos.get(i), productos.get(i).getPrice());
+                    stats.addCart(productos.get(i).getName());
                 }
             }
             cart = cartTemp;
@@ -40,9 +42,11 @@ public class CartCommand extends FrontCommand {
             for(int i = 0; i < productos.size();i++){
                 if (id == i){
                     cart.addProductToCart(productos.get(i), productos.get(i).getPrice());
+                    stats.addCart(productos.get(i).getName());
                 }
             }
         }
+        stats.increaseCart();
         request.getSession().setAttribute("carrito", cart);
         forward("/cart.jsp");
     }
@@ -51,6 +55,16 @@ public class CartCommand extends FrontCommand {
         try {
             Context c = new InitialContext();
             return (Cart) c.lookup("java:global/MedicDateManager1/MedicDateManager1-ejb/Cart!Stateful.Cart");
+        } catch (NamingException ne) {
+            Logger.getLogger(getClass().getName()).log(Level.SEVERE, "exception caught", ne);
+            throw new RuntimeException(ne);
+        }
+    }
+
+    private Stadistics takeStadisticsBean() {
+        try {
+            Context c = new InitialContext();
+            return (Stadistics) c.lookup("java:global/MedicDateManager1/MedicDateManager1-ejb/Stadistics!Singleton.Stadistics");
         } catch (NamingException ne) {
             Logger.getLogger(getClass().getName()).log(Level.SEVERE, "exception caught", ne);
             throw new RuntimeException(ne);

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-05-23T17:43:30</date>
+  <millis>1527093810001</millis>
+  <sequence>2248</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>133</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-23T17:43:35</date>
+  <millis>1527093815001</millis>
+  <sequence>2250</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>130</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-23T17:43:40</date>
+  <millis>1527093820000</millis>
+  <sequence>2252</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>129</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-23T17:43:45</date>
+  <millis>1527093825016</millis>
+  <sequence>2254</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>128</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-23T17:43:55</date>
+  <millis>1527093835001</millis>
+  <sequence>2256</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>137</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-23T17:44:00</date>
+  <millis>1527093840000</millis>
+  <sequence>2258</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>138</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-23T17:44:05</date>
+  <millis>1527093845000</millis>
+  <sequence>2260</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>132</thread>
+  <message>Doing nothing</message>
+</record>

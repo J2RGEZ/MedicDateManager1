@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-05-24T09:07:35</date>
+  <millis>1527149255154</millis>
+  <sequence>196</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>131</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-24T09:07:45</date>
+  <millis>1527149265000</millis>
+  <sequence>198</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>123</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-24T09:07:55</date>
+  <millis>1527149275000</millis>
+  <sequence>200</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>137</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-24T09:08:05</date>
+  <millis>1527149285073</millis>
+  <sequence>204</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>132</thread>
+  <message>Doing nothing</message>
+</record>

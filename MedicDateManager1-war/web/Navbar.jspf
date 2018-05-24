@@ -6,5 +6,6 @@
         <li><a href="printDates.jsp">Citas</a></li>
         <li><a href="printMedicProducts.jsp">Medicinas</a></li>
         <li><a href="cart.jsp">Carrito</a></li>
+        <li><a href="printStats.jsp">Estadisticas</a></li>
     </ul>
 </div>
