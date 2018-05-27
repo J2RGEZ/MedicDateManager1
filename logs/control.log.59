@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-05-27T18:39:20</date>
+  <millis>1527442760000</millis>
+  <sequence>8222</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>79</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T18:39:25</date>
+  <millis>1527442765000</millis>
+  <sequence>8224</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>136</thread>
+  <message>Doing nothing</message>
+</record>

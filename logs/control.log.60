@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-05-27T18:39:40</date>
+  <millis>1527442780001</millis>
+  <sequence>8336</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>122</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T18:39:45</date>
+  <millis>1527442785000</millis>
+  <sequence>8338</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>137</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T18:39:55</date>
+  <millis>1527442795001</millis>
+  <sequence>8340</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>133</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T18:40:00</date>
+  <millis>1527442800000</millis>
+  <sequence>8342</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>140</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T18:40:05</date>
+  <millis>1527442805001</millis>
+  <sequence>8344</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>143</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T18:40:10</date>
+  <millis>1527442810000</millis>
+  <sequence>8346</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>134</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T18:40:15</date>
+  <millis>1527442815000</millis>
+  <sequence>8348</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>139</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T18:40:20</date>
+  <millis>1527442820035</millis>
+  <sequence>8350</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>79</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T18:40:30</date>
+  <millis>1527442830000</millis>
+  <sequence>8352</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>141</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T18:40:35</date>
+  <millis>1527442835000</millis>
+  <sequence>8354</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>122</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T18:40:40</date>
+  <millis>1527442840001</millis>
+  <sequence>8356</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>137</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T18:40:45</date>
+  <millis>1527442845001</millis>
+  <sequence>8358</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>144</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T18:40:55</date>
+  <millis>1527442855001</millis>
+  <sequence>8360</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>140</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T18:41:00</date>
+  <millis>1527442860000</millis>
+  <sequence>8362</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>143</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T18:41:05</date>
+  <millis>1527442865000</millis>
+  <sequence>8364</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>134</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T18:41:10</date>
+  <millis>1527442870001</millis>
+  <sequence>8366</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>139</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T18:41:20</date>
+  <millis>1527442880001</millis>
+  <sequence>8376</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>135</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T18:41:25</date>
+  <millis>1527442885001</millis>
+  <sequence>8378</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>141</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T18:41:30</date>
+  <millis>1527442890000</millis>
+  <sequence>8380</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>122</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T18:41:35</date>
+  <millis>1527442895000</millis>
+  <sequence>8382</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>137</thread>
+  <message>Doing nothing</message>
+</record>

@@ -375,3 +375,157 @@
   <thread>144</thread>
   <message>Doing nothing</message>
 </record>
+<record>
+  <date>2018-05-27T17:54:05</date>
+  <millis>1527440045000</millis>
+  <sequence>2650</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>131</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T17:54:10</date>
+  <millis>1527440050000</millis>
+  <sequence>2652</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>140</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T17:54:20</date>
+  <millis>1527440060000</millis>
+  <sequence>2654</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>134</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T17:54:25</date>
+  <millis>1527440065000</millis>
+  <sequence>2656</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>139</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T17:54:30</date>
+  <millis>1527440070000</millis>
+  <sequence>2658</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>79</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T17:54:40</date>
+  <millis>1527440080000</millis>
+  <sequence>2660</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>141</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T17:54:45</date>
+  <millis>1527440085001</millis>
+  <sequence>2662</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>122</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T17:54:50</date>
+  <millis>1527440090000</millis>
+  <sequence>2664</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>137</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T17:54:55</date>
+  <millis>1527440095001</millis>
+  <sequence>2666</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>144</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T17:55:05</date>
+  <millis>1527440105000</millis>
+  <sequence>2668</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>138</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T17:55:10</date>
+  <millis>1527440110000</millis>
+  <sequence>2670</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>143</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T17:55:15</date>
+  <millis>1527440115000</millis>
+  <sequence>2672</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>134</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T17:55:20</date>
+  <millis>1527440120000</millis>
+  <sequence>2674</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>139</thread>
+  <message>Doing nothing</message>
+</record>
+<record>
+  <date>2018-05-27T17:55:25</date>
+  <millis>1527440125000</millis>
+  <sequence>2676</sequence>
+  <logger>Singleton.Log</logger>
+  <level>INFO</level>
+  <class>Singleton.Log</class>
+  <method>actualizarLog</method>
+  <thread>79</thread>
+  <message>Doing nothing</message>
+</record>

@@ -49,14 +49,6 @@ public class DatesFacade extends SuperFacade<Dates> {
         String query= "DELETE FROM Dates where id=:id";
         em.createQuery(query).setParameter("id", date.getId()).executeUpdate();
     }
-  
-    public List<Dates> sortDates(){
-       CriteriaBuilder crit = em.getCriteriaBuilder();
-       CriteriaQuery<Dates> query = crit.createQuery(Dates.class);
-       Root<Dates> root = query.from(Dates.class);
-       query.select(root).orderBy(crit.asc(root.get("name")));
-       return em.createQuery(query).getResultList();
-    }
     
     public void addDate(Dates date){
         String query= "INSERT INTO DATES (USERNAME,DOCTOR,DT) VALUES (?,?,?)";

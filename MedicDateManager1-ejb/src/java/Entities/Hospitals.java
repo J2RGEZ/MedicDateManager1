@@ -31,7 +31,6 @@ import javax.xml.bind.annotation.XmlRootElement;
     , @NamedQuery(name = "Hospitals.findById", query = "SELECT h FROM Hospitals h WHERE h.id = :id")
     , @NamedQuery(name = "Hospitals.findByName", query = "SELECT h FROM Hospitals h WHERE h.name = :name")
     , @NamedQuery(name = "Hospitals.findBySpecialty", query = "SELECT h FROM Hospitals h WHERE h.specialty = :specialty")
-    , @NamedQuery(name = "Hospitals.findByProducts", query = "SELECT h FROM Hospitals h WHERE h.products = :products")
     , @NamedQuery(name = "Hospitals.findByLocation", query = "SELECT h FROM Hospitals h WHERE h.location = :location")})
 public class Hospitals implements Serializable {
 
@@ -49,9 +48,6 @@ public class Hospitals implements Serializable {
     @Size(max = 50)
     @Column(name = "SPECIALTY")
     private String specialty;
-    @Size(max = 50)
-    @Column(name = "PRODUCTS")
-    private String products;
     @Size(max = 50)
     @Column(name = "LOCATION")
     private String location;
@@ -90,14 +86,6 @@ public class Hospitals implements Serializable {
 
     public void setSpecialty(String specialty) {
         this.specialty = specialty;
-    }
-
-    public String getProducts() {
-        return products;
-    }
-
-    public void setProducts(String products) {
-        this.products = products;
     }
 
     public String getLocation() {

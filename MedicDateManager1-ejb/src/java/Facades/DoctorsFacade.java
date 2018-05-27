@@ -6,6 +6,7 @@
 package Facades;
 
 import Entities.Doctors;
+import Entities.Hospitals;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -26,5 +27,12 @@ public class DoctorsFacade extends SuperFacade<Doctors> {
 
     public DoctorsFacade() {
         super(Doctors.class);
+    }
+    
+    public void addDoctor(Doctors doctor){
+        String query= "INSERT INTO Doctors (name,hospital,specialty) VALUES (?,?,?)";
+        em.createNativeQuery(query).setParameter(1, doctor.getName()).
+                            setParameter(2, doctor.getHospital()).
+                            setParameter(3, doctor.getSpecialty()).executeUpdate();
     }
 }

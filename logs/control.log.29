@@ -2,13 +2,13 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2018-05-27T17:24:45</date>
-  <millis>1527438285001</millis>
-  <sequence>3956</sequence>
+  <date>2018-05-27T18:18:40</date>
+  <millis>1527441520001</millis>
+  <sequence>4498</sequence>
   <logger>Singleton.Log</logger>
   <level>INFO</level>
   <class>Singleton.Log</class>
   <method>actualizarLog</method>
-  <thread>137</thread>
+  <thread>80</thread>
   <message>Doing nothing</message>
 </record>
