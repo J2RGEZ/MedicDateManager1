@@ -43,11 +43,9 @@
         <%}%>
         </table>
         <hr>
-        <div style="margin: 0 auto; width: 200px;">
-            <a href="/MedicDateManager1-war/FrontServlet?command=ShowProductsCommand&index=0">Inicio | </a>
+        <div style="margin: 0 auto; width: 140px;">
             <a href="/MedicDateManager1-war/FrontServlet?command=ShowProductsCommand&index=<%= minus5(index)%>">Atras | </a>
-            <a href="/MedicDateManager1-war/FrontServlet?command=ShowProductsCommand&index=<%= plus5(index, max)%>">Siguiente | </a>
-            <a href="/MedicDateManager1-war/FrontServlet?command=ShowProductsCommand&index=<%=max - 4%>">Final</a>
+            <a href="/MedicDateManager1-war/FrontServlet?command=ShowProductsCommand&index=<%= plus5(index, max)%>">Siguiente</a>
         </div>
         
         
