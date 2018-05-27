@@ -10,9 +10,6 @@ import java.util.List;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Root;
 
 /**
  *
@@ -33,7 +30,7 @@ public class DatesFacade extends SuperFacade<Dates> {
     }
     
     public List<Dates> showDates(){
-        String query="SELECT d FROM DATES d ORDER BY d.date DESC";
+        String query="SELECT d FROM Dates d ORDER BY d.date DESC";
         return em.createQuery(query).getResultList();
     }
         

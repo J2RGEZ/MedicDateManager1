@@ -10,6 +10,6 @@
         <li><a href="">///////////</a></li>
         <li><a href="adminDates.jsp">Administrar citas</a></li>
         <li><a href="adminHospitals.jsp">Hospitales</a></li>
-        <li><a href="">Productos</a></li>
+        <li><a href="/MedicDateManager1-war/FrontServlet?command=ShowProductsCommand">Productos</a></li>
     </ul>
 </div>

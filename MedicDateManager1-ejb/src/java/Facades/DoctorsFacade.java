@@ -6,7 +6,6 @@
 package Facades;
 
 import Entities.Doctors;
-import Entities.Hospitals;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

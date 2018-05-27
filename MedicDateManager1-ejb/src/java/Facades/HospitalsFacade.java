@@ -5,7 +5,6 @@
  */
 package Facades;
 
-import Entities.Dates;
 import Entities.Hospitals;
 import java.util.List;
 import javax.ejb.Stateless;
