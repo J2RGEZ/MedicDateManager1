@@ -16,7 +16,7 @@ import javax.persistence.PersistenceContext;
  */
 @Stateless
 public class UsersFacade extends SuperFacade<Users> {
-    @PersistenceContext(unitName = "MedicDateManager-ejbPU")
+    @PersistenceContext(unitName = "MedicDateManager1-ejbPU")
     private EntityManager em;
 
     @Override

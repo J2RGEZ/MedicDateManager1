@@ -7,5 +7,9 @@
         <li><a href="printMedicProducts.jsp">Medicinas</a></li>
         <li><a href="cart.jsp">Carrito</a></li>
         <li><a href="printStats.jsp">Estadisticas</a></li>
+        <li><a href="">///////////</a></li>
+        <li><a href="adminDates.jsp">Administrar citas</a></li>
+        <li><a href="">Hospitales</a></li>
+        <li><a href="">Productos</a></li>
     </ul>
 </div>

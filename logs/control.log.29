@@ -2,24 +2,13 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2018-05-22T19:38:35</date>
-  <millis>1527014315001</millis>
-  <sequence>8926</sequence>
+  <date>2018-05-27T17:24:45</date>
+  <millis>1527438285001</millis>
+  <sequence>3956</sequence>
   <logger>Singleton.Log</logger>
   <level>INFO</level>
   <class>Singleton.Log</class>
   <method>actualizarLog</method>
-  <thread>313</thread>
-  <message>Doing nothing</message>
-</record>
-<record>
-  <date>2018-05-22T19:38:40</date>
-  <millis>1527014320000</millis>
-  <sequence>8928</sequence>
-  <logger>Singleton.Log</logger>
-  <level>INFO</level>
-  <class>Singleton.Log</class>
-  <method>actualizarLog</method>
-  <thread>317</thread>
+  <thread>137</thread>
   <message>Doing nothing</message>
 </record>

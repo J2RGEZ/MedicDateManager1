@@ -6,6 +6,7 @@
 package Facades;
 
 import Entities.Products;
+import java.util.List;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -16,7 +17,7 @@ import javax.persistence.PersistenceContext;
  */
 @Stateless
 public class ProductsFacade extends SuperFacade<Products> {
-    @PersistenceContext(unitName = "MedicDateManager-ejbPU")
+    @PersistenceContext(unitName = "MedicDateManager1-ejbPU")
     private EntityManager em;
 
     @Override
@@ -26,5 +27,10 @@ public class ProductsFacade extends SuperFacade<Products> {
 
     public ProductsFacade() {
         super(Products.class);
+    }
+   
+    public List<Products> searchProduct(String name){
+        String query="SELECT p FROM Products p where p.name LIKE :name";
+        return em.createQuery(query).setParameter("name", "%"+name+"%").getResultList();
     }
 }

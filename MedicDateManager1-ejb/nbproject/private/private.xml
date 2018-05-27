@@ -2,6 +2,14 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/home/forjaser/NetBeansProjects/MedicDateManager1/MedicDateManager1-ejb/src/java/Entities/Products.java</file>
+            <file>file:/home/forjaser/NetBeansProjects/MedicDateManager1/MedicDateManager1-ejb/src/java/Entities/Dates.java</file>
+            <file>file:/home/forjaser/NetBeansProjects/MedicDateManager1/MedicDateManager1-ejb/src/java/Entities/Users.java</file>
+            <file>file:/home/forjaser/NetBeansProjects/MedicDateManager1/MedicDateManager1-ejb/src/java/Entities/Doctors.java</file>
+            <file>file:/home/forjaser/NetBeansProjects/MedicDateManager1/MedicDateManager1-ejb/src/java/Facades/SuperFacade.java</file>
+            <file>file:/home/forjaser/NetBeansProjects/MedicDateManager1/MedicDateManager1-ejb/src/java/Entities/Hospitals.java</file>
+            <file>file:/home/forjaser/NetBeansProjects/MedicDateManager1/MedicDateManager1-ejb/src/java/Facades/DatesFacade.java</file>
+        </group>
     </open-files>
 </project-private>

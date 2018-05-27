@@ -15,6 +15,7 @@ import javax.persistence.Id;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import javax.xml.bind.annotation.XmlRootElement;
 
@@ -23,14 +24,14 @@ import javax.xml.bind.annotation.XmlRootElement;
  * @author forjaser
  */
 @Entity
-@Table(name = "DATES")
+@Table(name = "APP.DATES")
 @XmlRootElement
 @NamedQueries({
     @NamedQuery(name = "Dates.findAll", query = "SELECT d FROM Dates d")
     , @NamedQuery(name = "Dates.findById", query = "SELECT d FROM Dates d WHERE d.id = :id")
-    , @NamedQuery(name = "Dates.findByUser", query = "SELECT d FROM Dates d WHERE d.user = :user")
+    , @NamedQuery(name = "Dates.findByUsername", query = "SELECT d FROM Dates d WHERE d.username = :username")
     , @NamedQuery(name = "Dates.findByDoctor", query = "SELECT d FROM Dates d WHERE d.doctor = :doctor")
-    , @NamedQuery(name = "Dates.findByDate", query = "SELECT d FROM Dates d WHERE d.date = :date")})
+    , @NamedQuery(name = "Dates.findByDt", query = "SELECT d FROM Dates d WHERE d.dt = :dt")})
 public class Dates implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -39,21 +40,34 @@ public class Dates implements Serializable {
     @Basic(optional = false)
     @Column(name = "ID")
     private Integer id;
-    @Size(max = 50)
-    @Column(name = "USER")
-    private String user;
-    @Size(max = 50)
+    @Basic(optional = false)
+    @NotNull
+    @Size(min = 1, max = 255)
+    @Column(name = "USERNAME")
+    private String username;
+    @Basic(optional = false)
+    @NotNull
+    @Size(min = 1, max = 255)
     @Column(name = "DOCTOR")
     private String doctor;
-    @Size(max = 50)
-    @Column(name = "DATE")
-    private String date;
+    @Basic(optional = false)
+    @NotNull
+    @Size(min = 1, max = 255)
+    @Column(name = "DT")
+    private String dt;
 
     public Dates() {
     }
 
-    public Dates(Integer id) {
+    public Dates(String dt) {
+        this.dt = dt;
+    }
+
+    public Dates(Integer id, String username, String doctor, String dt) {
         this.id = id;
+        this.username = username;
+        this.doctor = doctor;
+        this.dt = dt;
     }
 
     public Integer getId() {
@@ -64,12 +78,12 @@ public class Dates implements Serializable {
         this.id = id;
     }
 
-    public String getUser() {
-        return user;
+    public String getUsername() {
+        return username;
     }
 
-    public void setUser(String user) {
-        this.user = user;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getDoctor() {
@@ -80,12 +94,12 @@ public class Dates implements Serializable {
         this.doctor = doctor;
     }
 
-    public String getDate() {
-        return date;
+    public String getDt() {
+        return dt;
     }
 
-    public void setDate(String date) {
-        this.date = date;
+    public void setDt(String dt) {
+        this.dt = dt;
     }
 
     @Override
